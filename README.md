@@ -1,130 +1,149 @@
-List Usecase
-UC-01: Sign in
-T1: Username must not be blank.
-T2: Password must not be blank.
-UC-02: Sign up
-T3: Email: Email ID is not valid.
-T4: Username must be from 3 to 20 characters.
-T5: Password must be from 6 to 50 characters.
-T6: Username - First character cannot have space.
-T7: Username - has no spaces between characters.
-T8:  Telephone Number  – Special character are not allowed.
-T9:  Telephone Number  – Character are not allowed.
-T10:  Telephone Number - First character can not have space.
+I)Use Case
+-Sprint 1:
+UC-02: Đăng ký
+UC-01: Đăng nhập
+UC-22: Tạo tài khoản
+UC-14: Tạo dịch vụ mới
+UC-15: Chỉnh sửa dịch vụ.
+UC-16: Xóa dịch vụ
+UC-19: Quản lý khả dụng (khung thời gian)
+-Sprint 2:
+UC-05: Xem danh sách dịch vụ
+UC-04: Tìm kiếm dịch vụ
+UC-06: Xem chi tiết dịch vụ
+UC-10: Đặt dịch vụ
+UC-12: Xem chi tiết đặt chỗ
+UC-17: Kiểm tra lịch sử đặt chỗ
+UC-11: Hủy đặt chỗ
+UC-18: Chấp nhận/Hủy đặt chỗ
+-Sprint 3:
+UC-25: Xác nhận thanh toán
+UC-13: Phản hồi dịch vụ
+UC-08: Xem hồ sơ
+UC-09: Chỉnh sửa hồ sơ
+UC-03: Quên mật khẩu
+-Sprint 4:
+UC-20: Xem danh sách tài khoản
+UC-21: Xem chi tiết tài khoản
+UC-23: Chỉnh sửa tài khoản
+UC-24: Xóa tài khoản
 
-UC-03: Forgot Password
-T11: Forgot password - email is not vaild.
-T53: Forgot password - email does not exist in the system.
-T12: Forgot password - Confirmation Password must be the same as New Password.
-UC-04: Search Services
-T13: Search character not found.
-Ex: “The services not found”
-UC-05: View List of Services
-UC-06: View Detail Service
-UC-07: Sort Services
-T14: Price - Sort by price from high to low
-T15: Price - Sort by price from low to high
-T16: Rating - Sort by high rating
-T17: Rating  - Sort by low rating 	
-T18: service - Sort by service
-T19: Sort by combine sorting options
-UC-08: View Profile
-UC-09: Edit Profile
-UC-10: Booking Service
-T20:   Pet Type - Pet Type must be selected
-T21:   Date - Date must be selected
-T22:  Timeslot - Timeslot must be selected
-T23:  Pet Name - Name must not be blank
-T24:  Weight - Pet weight should only contain numbers
-T25:  Weight - Pet weight should not contain special characters
-T26:  Weight - Pet weight should not start with a space
-UC-11: Cancel Booking
-UC-12: View Booking Detail
-UC-13: Feedback Service
-T27: Feedback - Feedback must not be blank
-T28: Star rating must be selected
-T29: Feedback - Feedback must be input from 20 to 100
-UC-14: Create New Service
-T30: Name - Name must not be blank
-T31: Description - Description must not be blank
-T32: Tags - Tags must not be blank
-T34: Date - Date must be in future
-T35: Weight - Weight must not be blank
-T36: Weight - Weight must be numeric
-T37: Weight - Special character are not allowed
-T38: Age - Age must be a numeric
-T39: Age - Special character are not allowed
-T40: Age - Age must not be blank
-T41: Gender - Gender must not be blank
-UC-15: Modify Service
-T42: Service Name must not be blank
-T43: Service Description must not be blank
-T44: Tags must not be blank
-T45: Pricing Table must have at least one valid entry
-UC-16: Remove Service
-UC-17: Check History Booking
-UC-18: Accept/Cancel Booking
-UC-19: Manage Availability (Time Slot)
-UC-20: View Account List
-T46: View list of successful accounts
-T47: Empty account list
-T48: Check the pagination of the account list
-T49: Search for accounts in the list
-T50: Filter account list by role
-UC-21: View Account Detail
-UC-22: Create Account
-T38: Email: Email ID is not valid.
-T39: Username must be from 3 to 20 characters.
-T40: Password must be from 6 to 50 characters.
-T41: User name – First character cannot have space
-T42: Telephone Number  – Special character are not allowed
-T43: Telephone Number  – Character are not allowed
-T44: Telephone Number - First character can not have space
-T45: RoleID - RoleID must be selected
-UC-23: Modify Account
-T46:  Email - Email is not valid
-T47:  Email - First character can not have space
-T48: Password must be from 6 to 50 characters.
-T49:  Telephone Number  – Special character are not allowed
-T50:  Telephone Number  – Character are not allowed
-T51:  Telephone Number - First character can not have space
-T52: RoleID - RoleID must be selected
-UC-24: Delete Account
-UC-25: Confirm Payment
-T53: Method Payment - Method have to choose
-T54: Name - Name must not be blank
-T55: Name - Name must be valid
-T56: Card Number - Card number must be valid
-T57: Expiry Date - Expiry date must not be blank
-T58: Expiry Date - Expiry date must be valid
-T59: CVV - CVV must not be blank
-T60: CVV - CVV must be valid
+II)Test Case
+Spring 1:
+UC-02: Đăng ký
+T45: Đăng ký thành công với thông tin hợp lệ.
+T46: Đăng ký thất bại với email đã tồn tại.
+T47: Đăng ký thất bại khi tên đăng nhập đã tồn tại.
+UC-01: Đăng nhập
+T42: Đăng nhập thành công với thông tin hợp lệ.
+T43: Đăng nhập thất bại khi tài khoản bị khóa.
+T48: Đăng ký thất bại khi mật khẩu và xác nhận mật khẩu không khớp.
+T-: Số điện thoại đã tồn tại
+UC-22: Tạo tài khoản
+T33: Tạo tài khoản thành công với thông tin hợp lệ.
+T34: Tạo tài khoản thất bại khi email đã tồn tại.
+T35: Tạo tài khoản thất bại khi tên đăng nhập đã tồn tại
+UC-14: Tạo dịch vụ mới
+T13: Tạo dịch vụ mới thành công với thông tin hợp lệ.
+T14: Tạo dịch vụ mới thất bại khi dịch vụ đã tồn tại.
+T15: Tạo dịch vụ mới thất bại khi không có quyền truy cập..
+UC-15: Chỉnh sửa dịch vụ
+T16: Chỉnh sửa dịch vụ thành công với thông tin hợp lệ.
+T17: Chỉnh sửa dịch vụ thất bại khi dịch vụ không tồn tại.
+T18: Chỉnh sửa dịch vụ thất bại khi không có quyền truy cập.
+UC-16: Xóa dịch vụ
+T19: Xóa dịch vụ thành công với dịch vụ tồn tại.
+T20: Xóa dịch vụ thất bại khi dịch vụ đang được sử dụng.
+T21: Xóa dịch vụ thất bại khi không có quyền truy cập.
+UC-19: Quản lý khả dụng (khung thời gian)
+T26: Quản lý khung thời gian thành công với thông tin hợp lệ.
+T27: Quản lý khung thời gian thất bại khi không có quyền truy cập.
+T28: Quản lý khung thời gian thất bại khi thời gian không hợp lệ.
+Spring 2:
+UC-04: Tìm kiếm dịch vụ
+T53: Tìm kiếm dịch vụ thành công với từ khóa tồn tại.
+T54: Tìm kiếm dịch vụ thất bại với từ khóa không tồn tại.
+UC-06: Xem chi tiết dịch vụ
+T1: Xem chi tiết dịch vụ với quyền truy cập khách hàng.
+T2: Xem chi tiết dịch vụ với quyền truy cập quản trị viên.
+UC-10: Đặt dịch vụ
+T3: Đặt dịch vụ thành công với thông tin hợp lệ.
+T4: Đặt dịch vụ thất bại khi dịch vụ đã đầy. (Slot không thể đặt đc do đã hết available slot)
+T5: Đặt dịch vụ thất bại khi chọn thời gian không hợp lệ.(Lúc book không chọn được ngày trong quá khứ không )
+T6: Đặt dịch vụ với thời gian đã bị đặt trước.
+T7: Đặt dịch vụ với số lượng thú cưng vượt quá giới hạn cho phép.
+UC-12: Xem chi tiết đặt chỗ
+UC-17: Kiểm tra lịch sử đặt chỗ
+UC-11: Hủy đặt chỗ
+T8: Hủy đặt chỗ thành công với thông tin hợp lệ.
+T9: Hủy đặt chỗ thất bại khi đặt chỗ không tồn tại.
+UC-18: Chấp nhận/Hủy đặt chỗ
+T22: Chấp nhận đặt chỗ thành công với thông tin hợp lệ.
+T23: Hủy đặt chỗ thành công với thông tin hợp lệ.
+T24: Chấp nhận đặt chỗ thất bại khi không có quyền truy cập.
+T25: Hủy đặt chỗ thất bại khi không có quyền truy cập.
+T-: Cập nhật slot khi hủy đặt chỗ
+
+Spring 3:
+UC-25: Xác nhận thanh toán
+T10: Xác nhận thanh toán thành công với thông tin hợp lệ.
+T11: Xác nhận thanh toán thất bại khi thẻ hết hạn.
+T12: Xác nhận thanh toán thất bại khi số dư không đủ.
+UC-13: Phản hồi dịch vụ
+T57: Đánh giá dịch vụ thất bại khi không có quyền truy cập.
+UC-08: Xem hồ sơ
+UC-09: Chỉnh sửa hồ sơ
+UC-03: Quên mật khẩu
+T49: Gửi email khôi phục mật khẩu thành công với email hợp lệ.
+T50: Gửi email khôi phục mật khẩu thất bại với email không tồn tại trong hệ thống.
+T51: Đặt lại mật khẩu thành công với liên kết hợp lệ.
+T52: Đặt lại mật khẩu thất bại với liên kết đã hết hạn.
+Spring 4:
+
+UC-20: Xem danh sách tài khoản
+T29: Xem danh sách tài khoản thất bại khi không có quyền truy cập.
+UC-21: Xem chi tiết tài khoản
+T30: Xem chi tiết tài khoản thành công với tài khoản tồn tại.
+T31: Xem chi tiết tài khoản thất bại khi tài khoản không tồn tại.
+T32: Xem chi tiết tài khoản thất bại khi không có quyền truy cập.
+UC-23: Chỉnh sửa tài khoản
+T36: Chỉnh sửa tài khoản thành công với thông tin hợp lệ.
+T37: Chỉnh sửa tài khoản thất bại khi thông tin không hợp lệ.
+T38: Chỉnh sửa tài khoản thất bại khi không có quyền truy cập.
+T-: Mật khẩu mới không trùng mật khẩu cũ
+T-: Email mới không trùng với email đã có/cũ
+T-: Số điện thoại đã tồn tại
+UC-24: Xóa tài khoản
+T39: Xóa tài khoản thành công với tài khoản tồn tại.
+T40: Xóa tài khoản thất bại khi tài khoản đang được sử dụng.
+T41: Xóa tài khoản thất bại khi không có quyền truy cập.
 
 Phân công viết Test case
 --------sping 1---------------
-Nguyên UC 6,8
-Bin UC 9,10
-Phong UC 11
-Minh UC 12
-Hoàng UC 17
-Hòa UC 25
----------Spring 2----------
-Hòa UC 14
-Hoàng Uc 15
-Nguyên UC 16
-Phong 18
-Minh 19
---------Spring 3-----------
-Hòa UC 20
-Hoàng Uc 21
+Nguyên UC 14
+Bin UC 2,1
 Phong UC 22
-Bin 23
-Minh 24
+Minh UC 16
+Hoàng UC 15
+Hòa UC 19
+---------Spring 2----------
+Hòa UC 4
+Hoàng Uc 11
+Nguyên UC 5,6
+Phong 10,18
+Minh 12
+Bin 17
+--------Spring 3-----------
+Hòa UC 25
+Minh Uc 13
+Nguyên UC 8
+Bin 9
+Hoàng 3
 -------Spring 4-----------
-Bin UC 1
-Nguyên UC 2
-Phong UC 3
-Minh UC 4
-Hoàng UC 5
-Hòa UC 7,13
+Phong UC 20
+Minh UC 21
+Hoàng UC 23
+Hòa UC 24
+
+
 
