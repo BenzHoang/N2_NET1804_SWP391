@@ -77,6 +77,8 @@ UC-17: Kiểm tra lịch sử đặt chỗ
 UC-11: Hủy đặt chỗ
 T8: Hủy đặt chỗ thành công với thông tin hợp lệ.
 T9: Hủy đặt chỗ thất bại khi đặt chỗ không tồn tại.
+T10: Hủy đặt chỗ thât bại khi thời gian đã quá hạn
+T11 : Hủy đặt chỗ thất bại khi dịch vụ đã hoàn thành 
 UC-18: Chấp nhận/Hủy đặt chỗ
 T22: Chấp nhận đặt chỗ thành công với thông tin hợp lệ.
 T23: Hủy đặt chỗ thành công với thông tin hợp lệ.
