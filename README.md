@@ -143,8 +143,8 @@ Bin 9
 Hoàng 3
 -------Spring 4-----------
 Phong UC 20
-Minh UC 21
-Hoàng UC 23
+Minh UC 23
+Hoàng UC 21
 Hòa UC 24
 
 
