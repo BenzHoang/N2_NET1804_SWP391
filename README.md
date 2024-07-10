@@ -73,9 +73,8 @@ T5: Đặt dịch vụ thất bại khi chọn thời gian không hợp lệ.(L�
 T6: Đặt dịch vụ với thời gian đã bị đặt trước.
 T7: Đặt dịch vụ với số lượng thú cưng vượt quá giới hạn cho phép.
 UC-12: Xem chi tiết đặt chỗ
-T58: 
-T59:
-T60: Xem chi tiết đặt chỗ thất bại khi không có quyền truy cập 
+T58: Xem chi tiết đặt chỗ thành công sau khi đặt lịch 
+T59: Xem chi tiết đặt chỗ thất bại khi không có quyền truy cập 
 UC-17: Kiểm tra lịch sử đặt chỗ
 UC-11: Hủy đặt chỗ
 T8: Hủy đặt chỗ thành công với thông tin hợp lệ.
@@ -95,7 +94,9 @@ T10: Xác nhận thanh toán thành công với thông tin hợp lệ.
 T11: Xác nhận thanh toán thất bại khi thẻ hết hạn.
 T12: Xác nhận thanh toán thất bại khi số dư không đủ.
 UC-13: Phản hồi dịch vụ
-T57: Đánh giá dịch vụ thất bại khi không có quyền truy cập.
+T57: Đánh giá dịch vụ thành công với thông tin được nhập
+T60: Đánh giá dịch vụ thất bại với thông tin để trống
+T61: Đánh giá dịch vụ thất bại khi không có quyền truy cập.  
 UC-08: Xem hồ sơ
 UC-09: Chỉnh sửa hồ sơ
 UC-03: Quên mật khẩu
