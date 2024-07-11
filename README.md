@@ -29,7 +29,7 @@ UC-23: Chỉnh sửa tài khoản
 UC-24: Xóa tài khoản
 
 II)Test Case
-Spring 1:
+Sprint 1:
 UC-02: Đăng ký
 T45: Đăng ký thành công với thông tin hợp lệ.
 T46: Đăng ký thất bại với email đã tồn tại.
@@ -59,7 +59,7 @@ UC-19: Quản lý khả dụng (khung thời gian)
 T26: Quản lý khung thời gian thành công với thông tin hợp lệ.
 T27: Quản lý khung thời gian thất bại khi không có quyền truy cập.
 T28: Quản lý khung thời gian thất bại khi thời gian không hợp lệ.
-Spring 2:
+Sprint 2:
 UC-04: Tìm kiếm dịch vụ
 T53: Tìm kiếm dịch vụ thành công với từ khóa tồn tại.
 T54: Tìm kiếm dịch vụ thất bại với từ khóa không tồn tại.
@@ -88,7 +88,7 @@ T24: Chấp nhận đặt chỗ thất bại khi không có quyền truy cập.
 T25: Hủy đặt chỗ thất bại khi không có quyền truy cập.
 T-: Cập nhật slot khi hủy đặt chỗ
 
-Spring 3:
+Sprint 3:
 UC-25: Xác nhận thanh toán
 T10: Xác nhận thanh toán thành công với thông tin hợp lệ.
 T11: Xác nhận thanh toán thất bại khi thẻ hết hạn.
@@ -104,8 +104,8 @@ T49: Gửi email khôi phục mật khẩu thành công với email hợp lệ.
 T50: Gửi email khôi phục mật khẩu thất bại với email không tồn tại trong hệ thống.
 T51: Đặt lại mật khẩu thành công với liên kết hợp lệ.
 T52: Đặt lại mật khẩu thất bại với liên kết đã hết hạn.
-Spring 4:
 
+Sprint 4:
 UC-20: Xem danh sách tài khoản
 T29: Xem danh sách tài khoản thất bại khi không có quyền truy cập.
 UC-21: Xem chi tiết tài khoản
@@ -125,27 +125,27 @@ T40: Xóa tài khoản thất bại khi tài khoản đang được sử dụng.
 T41: Xóa tài khoản thất bại khi không có quyền truy cập.
 
 Phân công viết Test case
---------sping 1---------------
+--------Sprint 1---------------
 Nguyên UC 14
 Bin UC 2,1
 Phong UC 22
 Minh UC 16
 Hoàng UC 15
 Hòa UC 19
----------Spring 2----------
+---------Sprint 2----------
 Hòa UC 4
 Hoàng Uc 11
 Nguyên UC 5,6
 Phong 10,18
 Minh 12
 Bin 17
---------Spring 3-----------
+--------Sprint 3-----------
 Hòa UC 25
 Minh Uc 13
 Nguyên UC 8
 Bin 9
 Hoàng 3
--------Spring 4-----------
+-------Sprint 4-----------
 Phong UC 20
 Minh UC 23
 Hoàng UC 21
